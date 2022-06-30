@@ -1,0 +1,32 @@
+.seccionUno {
+    grid-area: seccionUno;
+    background-image: linear-gradient(0deg, rgba(102,2,22,1) 15%, #dc143c 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccionDos {
+    grid-area: seccionDos;
+    background-image: linear-gradient(0deg, rgba(102,2,22,1) 15%, rgba(220,20,60,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.subtitulo {
+    background-color: rgb(236, 128, 128);
+    font-style: italic;
+    border: dotted 1vh black;
+    border-radius: 7vh;
+    font-weight: bold;
+    text-align: left;
+    margin: 2vh 3vh 3vh 2vh;
+    padding:2vh;
+    text-align: center;
+    text-decoration: underline;
+}
+.autosImagenes {
+    width: 35vw;
+}

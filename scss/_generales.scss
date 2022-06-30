@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.grillaIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.3fr 1.3fr 0.7fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header header"
+        "seccionUno seccionUno seccionDos seccionDos"
+        "seccionUno seccionUno seccionDos seccionDos"
+        "footer footer footer footer";
+}

@@ -1,0 +1,106 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.grillaIndex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1.3fr 1.3fr 0.7fr;
+  grid-auto-flow: row;
+  grid-template-areas: "header header header header" "seccionUno seccionUno seccionDos seccionDos" "seccionUno seccionUno seccionDos seccionDos" "footer footer footer footer"; }
+
+header {
+  background-image: linear-gradient(0deg, #660216 15%, #dc143c 100%);
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  grid-area: header; }
+  header .logo {
+    height: 8vh;
+    width: 25vw;
+    border: dotted #bb0000;
+    border-radius: 10rem;
+    margin-left: 35%; }
+  header .lista {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #dc143c;
+    color: white; }
+    header .lista li {
+      display: flex;
+      margin: 2vw;
+      list-style: none; }
+      header .lista li a {
+        border: double black;
+        height: 6vh;
+        width: 15vw;
+        text-align: center;
+        padding-top: 2.5vh;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3vw; }
+        header .lista li a:hover {
+          border: solid white; }
+
+.footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-around;
+  grid-area: footer; }
+
+.listaFooter {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #660216;
+  color: white; }
+  .listaFooter li {
+    display: flex;
+    margin: 2vw;
+    list-style: none; }
+    .listaFooter li a {
+      border: dotted white 0.5vh;
+      padding: 1vw;
+      color: white;
+      text-decoration: none;
+      font-size: 1.3vw; }
+    .listaFooter li:hover {
+      border: dotted black 0.5vh;
+      transform: scale(1.5);
+      transition: 2s; }
+
+.seccionUno {
+  grid-area: seccionUno;
+  background-image: linear-gradient(0deg, #660216 15%, #dc143c 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.seccionDos {
+  grid-area: seccionDos;
+  background-image: linear-gradient(0deg, #660216 15%, crimson 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.subtitulo {
+  background-color: #ec8080;
+  font-style: italic;
+  border: dotted 1vh black;
+  border-radius: 7vh;
+  font-weight: bold;
+  text-align: left;
+  margin: 2vh 3vh 3vh 2vh;
+  padding: 2vh;
+  text-align: center;
+  text-decoration: underline; }
+
+.autosImagenes {
+  width: 35vw; }

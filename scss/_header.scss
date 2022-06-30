@@ -1,0 +1,51 @@
+header {
+    background-image: $colorFondo;
+    ;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    grid-area: header;
+
+    .logo {
+        height: 8vh;
+        width: 25vw;
+        border: dotted rgb(187, 0, 0);
+        border-radius: 10rem;
+        margin-left: 35%;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        background-color: #dc143c;
+        color: white;
+
+        li {
+            display: flex;
+            margin: 2vw;
+            list-style: none;
+
+            a {
+                border: double black;
+                height: 6vh;
+                width: 15vw;
+                text-align: center;
+                padding-top: 2.5vh;
+                color: white;
+                text-decoration: none;
+                font-size: 1.3vw;
+
+                &:hover {
+                    border: solid rgb(255, 255, 255);
+                }
+            }
+
+
+
+        }
+    }
+
+
+}
