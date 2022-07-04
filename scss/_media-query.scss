@@ -1,0 +1,54 @@
+@media (max-width: 768px){
+    .imagenAutosStock{
+            width: 33.3vw;
+    }
+    .organizador{
+            border: none;
+    }
+    li a {
+        font-size: 2vh;
+    } 
+    .lista a {
+        height: 4vh;
+        width: 13vw;
+        padding: 1vh;
+        justify-content: space-between;
+    }
+    .nombre{
+        width: 35vw;
+    }
+    .email{
+        width: 35vw;
+    }
+    }
+    
+    @media (max-width: 320px){
+    .lista a {
+        height: 1vh;
+        width: 15vw;
+        padding: 1vh 0vh 1vh 0vh;
+    }
+    li a{
+        font-size: 0.8vh;
+    }
+    .listaFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .listaFooter a{
+        font-size: 1.5vh;
+    }
+    .organizador{
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+    .imagenAutosStock{
+        width: 100vw;
+    }
+    .contactanos{
+        font-size: 3vh;
+        padding: 0vh;
+    }
+    
+    }

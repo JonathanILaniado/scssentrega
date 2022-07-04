@@ -1,0 +1,24 @@
+form{
+    input{
+        @extend %contactoForm;
+    }
+    padding: 4vh;
+}
+.contactanos{
+    padding: 2vh 2vh 2vh 0vh;
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.comentario{
+    padding: 2vh 2vh 2vh 0vh;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.textArea{
+    width: 70vw;
+    height: 70vh;
+    }

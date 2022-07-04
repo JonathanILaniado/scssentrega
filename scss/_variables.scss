@@ -1,2 +1,17 @@
 $colorFondo:linear-gradient(0deg, rgba(102,2,22,1) 15%, #dc143c 100%);
 $tamanoImagen: 3rem;
+$tamanoForm: 20vw;
+
+
+//EXTEND
+%contactoForm{
+    width: $tamanoForm;
+    border-radius: 0.5vh;
+    height: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+//MIXIN
+@mixin fontSyle(){
+
+}
